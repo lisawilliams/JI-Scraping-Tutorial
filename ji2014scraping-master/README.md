@@ -38,11 +38,21 @@ How to identify a specific area on the page you're looking for
     Role of web inspector in seeing how this works on actual web page  
 
 What we need to scrape - content  
-    Introduce sample website we scrape today  
+
+     Introduce sample website we scrape today  
     http://www.admissions.umd.edu/academics/Majors.php?m=1  
     A web address  
-    Way to select overall block of content we want  
-    Way to select specific items we want  
+    http://www.admissions.umd.edu/academics/Majors.php?m=1
+    Way to select overall block of content we want
+      <div class="chld3OneColContent mti_font_element">
+        	
+      
+    Way to select specific items we want 
+    
+    Grab all the "A"s inside the div we were looking at before
+    
+    Example: <a href="http://www.rhsmith.umd.edu/undergrad/majors/account.aspx" target="_blank" 
+    class="mti_font_element">Accounting&nbsp;(Robert H. Smith School of Business)</a> 
     
 What do we need to scrape - prog lang?  
     What is a scripting language?  
